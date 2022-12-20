@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>address</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style type="text/css">
+
+	.paymentimg img{width: 100%; height: auto;}
+	.formss input{width: 45%; margin: 1%; border-radius: 5px; border-style: solid;}
+	.formss textarea{width: 93%;margin: 1%;  border-radius: 5px; border-style: solid;}
+	.paymentlogos img{width: 100%;}
+	.logo{font-family: Papyrus; font-weight: 600; color: #ff7035;}
+	.header{position: relative; background-color: white; border-bottom: 1px solid #ff7035; }
+
+
+	@media screen and (max-width:578px)
+	{
+.formss input{width: 93%; margin: 3px;}
+.header{text-align: center;}
+
+	}
+	@media screen and (max-width:768px)
+	{.paymentimg{display: none;}}
+
+	@media screen and (min-width:578px)
+	{
+.header{text-align: left;
+	}
+}
+
+
+</style>
+
+	<body>
+
+<div class="container-fluid header">
+	<div class="row">
+		<div  ><h1><a class="navbar-brand logo" href="home.html">W00D</a></h1></div>
+	</div>
+</div>
+		
+
+<div class="container-fluid">
+	<div class="row p-2">
+
+		<div class="col-md-4 paymentimg"><img src="images/paymentimg.jpg" ></div>
+
+
+		<div class="col-md-8 p-2">
+			<h5>Delivery Address</h5>
+			<center>
+			<form class="formss p-2 " action="paymentpage.html">
+				
+				<input type="text" name="firstname" placeholder="First Name">
+				<input type="text" name="lastname" placeholder="Last Name">
+				<input type="email" name="email" placeholder="Email">
+				<input type="number" name="phn" placeholder="Phone No.">
+				<input type="number" name="pincode"  placeholder="PIN Code">
+				<input type="text" name="town" placeholder="Town/Village">
+				<input type="text" name="city" placeholder="City/District">
+				<input type="text" name="state" placeholder="State">
+				<textarea placeholder="Address(House No., Building, Street, Area)"></textarea>
+
+				
+	<input type="submit" value="Send OTP" style="width: 50%; background-color: #ff7035; text-decoration: bold; color:white; border: solid #ff7035; ">
+					<!-- <input type="submit" name="submit" value="submit"> -->
+
+
+				
+ 
+    
+
+</form>
+		</center>
+	</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12 paymentlogos"><img src="images/payment.jpg"></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</head>
+</html>

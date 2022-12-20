@@ -1,0 +1,147 @@
+/* to have a fixed header uncomment the position and z index of the header 
+ also uncomment soffacollection's zindex and padding top 
+AGAIN youll have to uncoment the soffacollection's padding top from the media max screen 579 */
+/*do visa versa "comment the uncomented" for unfixing and scrollable header 
+just set sofacollections padding top at 15px;*/
+
+
+
+
+*{font-family: Arial;}
+
+a{text-decoration: none; color:#848484; font-weight: 700;}
+
+
+
+.navsearch input {height: 2.2rem; width: 100%; border-radius: 7px;}
+.logo{font-family: Papyrus; font-weight: 700; color: #ff7035;}
+.nav h6{margin-bottom: 8px;}
+.searchpopup {width: 100%; border-radius: 7px; height: 2.2rem;}
+.suggestion{border: solid black 1px; border-radius: 40px;  }
+.header{z-index: +1; position: fixed; background-color: white; border-bottom: 1px solid #ff7035;  }
+#icon{color: grey;}
+
+
+#price{display: inline-block; float: left; color: orange}
+#overline{text-decoration: line-through; float: left; color: grey; margin-left: 10px;}
+.titlecard{font-size: 20px;}
+#cardbtn{width: 120px; font-size: 15px;}
+.crouselimg {height: 300px;}
+.productdetails h4{font-weight: 400;}
+#discount{float: left;}
+#codebar{width: 100%;}
+.crouselimgcenter img{margin: auto;}
+
+.sofaCollection{/*padding-top: 15px;*/ padding-top: 100px; z-index: -1;}
+
+
+/*footer*/
+.footer{margin-top: 80px;}
+
+.footer ul{list-style: none; }
+.download img{width: 100px; height: auto; }
+.footercontent p{font-size: 13px;}
+.footersocial img{width: 100%;}
+.socialicon{font-size:30px; }
+
+
+/*---about us---------*/
+
+
+ .ytube img{width: 100%;}
+.ytube h1{color:#535353; margin: 50px;}
+.ytube{background-color: #f5f5f5;}
+
+/*-------our blog*/
+
+.ourblogheadings{ font-weight: 400; color:#535353; }
+.shoptheroom img{width: 80%;}
+.redirect {width: 90px; margin: auto; color:white;}
+
+.shoptheroom h1{margin-top: 40px}
+
+.shoproom2 img{width: 80%;}
+
+
+/*---------contact us---------*/
+
+.ch input{height: 60px; width: 75%;  border-radius: 5px; font-size: 20px;}
+		.chsearchbutton{height: 60px; width: 25%; border-radius: 5px; }
+		.chsearchbutton h5{color:white;}
+		.helpicon {font-size: 40px;}
+		.ch {padding-top: 90px;}
+		.ch h4{margin:40px, 0;}
+
+
+/*----------sign in form--------*/
+.signinform input{width: 100%; border-radius: 5px;}
+
+
+
+
+
+
+
+@media screen and (max-width:575px)
+{
+
+.headericons i{margin-left: 8px;}
+.navsearch{display: none;}
+#icon{ font-size: 20px;}
+
+
+#price{font-size: 14px;}
+#overline{margin-left:5px; font-size: 13px;} 
+.titlecard{font-size: 16px;}
+#cardbtn{width: 90px; font-size: 12px;}
+#cardtxt{font-size: 11px;}
+.crouselimg{height: 150px;}
+.shop button {width: 100%; }
+
+.sofaCollection{padding-top: 80px;}
+
+
+/*footer*/
+.download{text-align: center;}
+	 .footercontent{display: none;}
+
+
+	 .ytube{padding-top:30px;}
+
+
+	 .homemore{display: none;}
+
+
+.imgadjust img{height: 200px; text-align: center;object-position: center; object-fit:cover;}
+}
+
+
+
+
+@media screen and (min-width:576px)  
+{
+		.navsearch{display: none;}
+.headericons i{margin-left: 15px;}
+#icon{ font-size: 24px;}
+.shop button {width: 200px; }
+ .ytube{padding-top:50px;}
+}
+
+
+
+@media screen and (min-width:768px)
+{
+.magnafineglass i{display: none;}
+	.headericons i{margin-left: 20px;}
+	.navsearch{display: inline;}
+	#icon{ font-size: 25px;}
+.shop button {width: 350px; }
+.ytube iframe{width: 80%; height: 400px;}
+}
+
+
+@media screen and (max-width:768px)
+{
+	 .footercontent{display: none;}
+	 .sideposter{display: none;}
+}

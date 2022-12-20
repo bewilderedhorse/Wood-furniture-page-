@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="icons/all.min.css">
+	<link rel="stylesheet" href="fontawsome.min.css">
+
+<style type="text/css">
+
+	.paymentimg img{width: 100%; height: auto;}
+	.formss input{width: 45%; margin: 1%; border-radius: 5px; border-style: solid;}
+	.formss textarea{width: 93%;margin: 1%;  border-radius: 5px; border-style: solid;}
+	.paymentlogos img{width: 100%;}
+	.logo{font-family: Papyrus; font-weight: 600; color: #ff7035;}
+	.header{position: relative; background-color: white; border-bottom: 1px solid #ff7035; }
+
+
+	@media screen and (max-width:578px)
+	{
+.formss input{width: 93%; margin: 3px;}
+.header{text-align: center;}
+
+	}
+	@media screen and (max-width:768px)
+	{.paymentimg{display: none;}}
+
+	@media screen and (min-width:578px)
+	{
+.header{text-align: left;
+	}
+}
+
+
+</style>
+
+	<body>
+
+<div class="container-fluid header">
+	<div class="row">
+		<div  ><h1><a class="navbar-brand logo" href="#">W00D</a></h1></div>
+	</div>
+</div>
+		
+
+<div class="container-fluid">
+	<div class="row p-2">
+
+		<div class="col-md-4 paymentimg"><img src="images/debtcardimg.jpg" ></div>
+
+
+		<div class="col-md-8 p-2">
+			<h5>Payment Details</h5>
+			<center>
+			<form class="formss p-2" >
+				
+				<input type="number" name="cardno." placeholder="Enter The 12 Digit Code On The Card" style="width: 93%">
+				<input type="number" name="cvv" placeholder="Enter Your CVV">
+				<input type="number" name="exp" placeholder="Enter Expiry MM/YY">
+				<input type="text" name="state" placeholder="Enter The Name On The Card"  style="width: 93%">
+				
+				<a href="#"> <input type="submit" value="Send OTP" style="width: 50%; background-color: #ff7035; text-decoration: bold; color:white; border: solid #ff7035; "></a>
+				
+			</form>
+		</center>
+	</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12 paymentlogos"><img src="images/payment.jpg"></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	</body>
+</head>
+</html>
